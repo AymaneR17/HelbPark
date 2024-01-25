@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="402.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.helbpark.ParkingEdit">
+   <children>
+      <Label fx:id="lblVehicle" layoutX="21.0" layoutY="140.0" text="Type Vehicule" />
+      <Label fx:id="lblImmatriculation" layoutX="17.0" layoutY="200.0" text="Immatriculation" />
+      <Label fx:id="lblTotalToPay" layoutX="14.0" layoutY="263.0" text="Total à payer" />
+      <Button fx:id="clearPlacement" layoutX="57.0" layoutY="343.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="167.0" text="Liberer l'emplacement " />
+      <Label fx:id="lblPlacementNbr" layoutX="21.0" layoutY="20.0" prefHeight="18.0" prefWidth="123.0" text="Emplacement : " textFill="#f71d1d" />
+      <Label layoutX="127.0" layoutY="21.0" />
+      <TextField fx:id="editImmatriulation" layoutX="125.0" layoutY="196.0" prefHeight="26.0" prefWidth="130.0" />
+      <Button fx:id="btnEditImmatriculation" layoutX="273.0" layoutY="196.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="62.0" text="Valider" />
+      <Button fx:id="btnModifyVehicle" layoutX="274.0" layoutY="136.0" mnemonicParsing="false" text="Modifier" />
+      <Label fx:id="lblStatus" layoutX="21.0" layoutY="76.0" text="Statut" />
+      <ComboBox fx:id="myComboBox" layoutX="126.0" layoutY="136.0" prefHeight="26.0" prefWidth="144.0" promptText="Choisir un vehicule" />
+   </children>
+</AnchorPane>
